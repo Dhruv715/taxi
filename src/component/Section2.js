@@ -18,28 +18,29 @@ function Section2() {
                 Looking for taxi?</h2>
                     <h1 className='text-7xl mt-5 font-extrabold ps-5 pe-4' style={{ fontFamily: 'poppins',color:'white' }}>Make your booking</h1>
 
-                    <div className='tripform'>
-                        <div className="flex">
-                            <input type="text" placeholder='Your name' />
-                            <input type="email" placeholder='Email Address' />
+                    <div className='tripform w-1/2 ms-5 my-5'>
+                        <div className="flex w-full my-2">
+                            <input type="text" className='w-1/2 m-2 ' placeholder='Your name' />
+                            <input type="email" className='w-1/2 m-2' placeholder='Email Address' />
                         </div>
-                        <div className='flex'>
-                            <input type="tel" name="" id=""  placeholder='Phone Number'/>
+                        <div className='flex w-full my-2'>
+                            <input type="tel" name="" id=""  className='w-full m-2' placeholder='Phone Number'/>
                         </div>
-                        <div className="flex">
-                            <input type="text" placeholder='Passengers'/>
+                        <div className="flex w-full my-2">
+                            <input type="text" placeholder='Passengers' className='w-full m-2'/>
                         </div>
-                        <div className="flex">
-                            <input type="text" placeholder='Pickup address' />
+                        <div className="flex w-full my-2">
+                            <input type="text" placeholder='Pickup address' className='w-full m-2'/>
                         </div>
-                        <div className="flex">
-                            Drop off address
+                        <div className="flex w-full my-2" >
+                        <input type="text" placeholder='Drop off address' className='w-full m-2'/>
+                            
+                        </div>  
+                        <div className="flex w-full my-2">
+                            <input type="text" placeholder='Message' className='w-full m-2'/>
                         </div>
-                        <div className="flex">
-                            <input type="text" placeholder='Message' />
-                        </div>
-                        <div className='flex'>
-                                <button>Book Now</button>
+                        <div className='flex w-full my-2'>
+                                <button className='w-full m-2'>Book Now</button>
                         </div>
                     </div>
                 </div>
