@@ -5,10 +5,15 @@ function Sliders() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 3000,
+        autoplaySpeed: 3000,
+
+
     };
+
     return (
         <div className="slider-container">
             <Slider {...settings}>

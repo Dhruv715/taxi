@@ -1,5 +1,5 @@
 .semiimg{
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   object-fit: cover;
 }
@@ -33,10 +33,10 @@
   font-weight: 700;
 }
 .boxs{
-  height: 500px;
+  height: 400px;
   /* background-color: red; */
-  width: 400px;
-  margin: 20px 40px;
+  width: 300px;
+  /* margin: 20px 40px; */
   padding: 10px;
   border: 2px solid  #fbbf24;
 }
@@ -46,9 +46,9 @@
   object-fit: cover;
 }
 .parentbosx .boxs{
-  height: 300px;
-  width: 300px;
-  margin: 0px 10px;
+  height: 250px;
+  width: 250px;
+  margin: 10px 10px;
 }
 .parentbosx .boxs img{
   height: 70%;
