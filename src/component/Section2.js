@@ -2,7 +2,7 @@ import React from 'react';
 
 function Section2() {
   return (
-    <div className='flex flex-col lg:flex-row w-screen my-2'>
+    <div className='flex flex-col lg:flex-row w-screen  overflow-hidden'>
       <div className='lg:w-1/2 md:w-full sm:w-full'>
         <img className='mx-5 my-3 w-4/5 sm:w-2/3 md:w-2/3' style={{ borderRadius: '20px' }} src="http://old3.commonsupport.com/wp/conexi/wp-content/uploads/2020/04/book-1-1.jpg" alt="" />
         <h2 className='lg:text-lg sm:text-base md:text-base font-bold text-gray-400 ps-5' style={{ fontFamily: 'poppins' }}>Your Premier Choice for Renting a Cab in Surat</h2>

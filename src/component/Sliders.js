@@ -15,7 +15,7 @@ function Sliders() {
     };
 
     return (
-        <div className="slider-container">
+        <div className="slider-container overflow-hidden" style={{height:'70vh'}}>
             <Slider {...settings}>
                 <div>
                     <img

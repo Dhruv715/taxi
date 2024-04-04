@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div className='flex flex-col sm:flex-col md:flex-col lg:flex-row justify-around items-center py-9 bg-black text-white'>
+        <div className='flex flex-col sm:flex-col md:flex-col lg:flex-row justify-around items-center py-9 bg-black text-white overflow-hidden'>
             <div className='text-4xl flex flex-row justify-around items-center cursor-pointer' style={{ fontFamily: "Tac One" }}>
                 <i className="ri-taxi-line text-3xl pe-2" style={{ color: '#fbbf24' }}></i>
                 MyTaxi.com

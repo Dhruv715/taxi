@@ -3,7 +3,7 @@ import React from 'react';
 function Section3() {
   return (
     <>
-    <div className='w-screen bg-gray-100 py-10 my-10'>
+    <div className='w-screen bg-gray-100 py-10  overflow-hidden'>
         <h1 className='font-extrabold text-4xl lg:text-8xl md:text-5xl sm:text-3xl py-5 text-center' style={{fontFamily:'poppins'}}> Our Services</h1>
         <h3 className='font-medium text-center py-3 lg:text-lg sm:text-base md:text-base '  style={{fontFamily:'poppins'}}>Our Services Choose from a wide range of services tailored to meet your specific travel requirements:</h3>
 
