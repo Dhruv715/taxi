@@ -1,7 +1,7 @@
 .semiimg{
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
-  object-fit: cover;
+  object-fit: cover !important;
 }
 .slick-dots li.slick-active button:before{
   background-color: #fbbf24;
@@ -54,4 +54,50 @@
   height: 70%;
   width: 100%;
   object-fit: cover;
+}
+.simller{
+  transition:  all ease-in-out .2s;
+}
+.simller:hover{
+    transform: translateX(10px);
+}
+.commoneffect{
+  transition:  all ease-in-out .2s;
+}
+.commoneffect:hover{
+  transform:  translateX(10px);
+  color: #fbbf24;
+}
+.menu-item {
+  position: relative;
+}
+
+.menu-item::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fbbf24;
+  bottom: -2px;
+  left: 0;
+  transition: width 0.3s ease;
+}
+
+.menu-item:hover::after {
+  width: 100%;
+}
+
+.menu-item::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fbbf24;
+  bottom: -2px;
+  right: 0;
+  transition: width 0.3s ease;
+}
+
+.menu-item:hover::before {
+  width: 100%;
 }

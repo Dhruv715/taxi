@@ -7,11 +7,19 @@ function Navbar() {
                 <i className="ri-taxi-line text-3xl pe-2" style={{ color: '#fbbf24' }}></i>
                 MyTaxi.com
             </div>
-            <ul className=' space-x-2 flex w-full lg:w-4/12 flex-row sm:flex-row md:flex-row lg:flex-row font-sans text-medium font-bold justify-center md:py-2 sm:py-2 ' style={{fontFamily:'poppins'}}>
-                <li className='md:px-2 sm:px-2 cursor-pointer hover:text-yellow-400 text-gray-300' >Home</li>
-                <li className='md:px-2 sm:px-2 cursor-pointer hover:text-yellow-400 text-gray-300'>About</li>
-                <li className='md:px-2 sm:px-2 cursor-pointer hover:text-yellow-400 text-gray-300'>Services</li>
-                <li className='md:px-2 sm:px-2 cursor-pointer hover:text-yellow-400 text-gray-300'>Book Ride</li>
+            <ul className=' space-x-2 flex w-full lg:w-4/12 flex-row sm:flex-row md:flex-row lg:flex-row font-sans text-medium font-bold justify-center md:py-2 sm:py-2 ' style={{ fontFamily: 'poppins' }}>
+                <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
+                    <span className="menu-item">Home</span>
+                </li>
+                <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
+                    <span className="menu-item">About</span>
+                </li>
+                <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
+                    <span className="menu-item">Services</span>
+                </li>
+                <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
+                    <span className="menu-item">Book Ride</span>
+                </li>
             </ul>
             <div className='hidden sm:hidden md:hidden lg:block'>
                 <i className="ri-phone-line text-2xl mx-2" style={{ color: '#fbbf24' }}></i>
