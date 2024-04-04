@@ -4,14 +4,14 @@ function Section5() {
   return (
     <>
         <div className='w-screen bg-gray-100 py-10'>
-        <h1 className='font-extrabold text-6xl py-5 text-center' style={{fontFamily:'poppins'}}>Why Choose Style Taxi</h1>
+        <h1 className='font-extrabold text-4xl lg:text-7xl md:text-6xl py-5 text-center' style={{fontFamily:'poppins'}}>Why Choose Style Taxi</h1>
         <h3 className='font-medium text-center py-3 text-lg'  style={{fontFamily:'poppins'}}>Here are some reasons why Style Taxi is your best choice for renting a cab:</h3>
-        <div className="parentvox flex  lg:flex-row md:flex-col sm:flex-col my-5 justify-center items-center">
-            <div className="lg:w-1/2 md:w-2/2 sm:w-2/2 flex  justify-end">
-                <img src="https://styletaxi.in/wp-content/uploads/2023/06/taxi-sign-car-600x480.jpg" className='w-1/2' alt="taxiimages"  style={{width:'500px'}}/>
+        <div className="parentvox flex flex-col lg:flex-row md:flex-col sm:flex-col my-5 justify-center items-center">
+            <div className="lg:w-1/2 md:w-full sm:w-full flex justify-center lg:justify-end mb-5 lg:mb-0">
+                <img src="https://styletaxi.in/wp-content/uploads/2023/06/taxi-sign-car-600x480.jpg" className='w-4/5 lg:w-auto' alt="taxiimages" />
             </div>
-            <div className="lg:w-1/2 md:2/2 sm:2/2 px-10">
-                <ol type="1" className='lg:w-4/5 md:5/5 sm:5/5 px-5 text-center font-sans font-medium text-base' style={{fontFamily:'poppins'}} >
+            <div className="lg:w-1/2 md:w-full sm:w-full px-2">
+                <ol type="1" className='w-5/5 lg:w-4/5 md:w-full sm:w-full px-5 text-left font-sans font-medium text-base' style={{fontFamily:'poppins'}} >
                     <li className='py-3'>Extensive Fleet: Our fleet consists of a wide variety of well-maintained and luxurious cars, ensuring that you have the perfect ride for every occasion.</li>
                     <li className='py-3'>Professional Drivers: Our drivers are experienced, well-trained, and prioritize your safety and comfort. They are knowledgeable about the local routes and strive to provide an excellent customer experience.</li>
                     <li className='py-3'>Affordable Rates: We offer competitive pricing without compromising on the quality of service. Our transparent pricing policy ensures that you get value for your money.</li>
