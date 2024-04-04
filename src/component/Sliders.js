@@ -19,7 +19,7 @@ function Sliders() {
             <Slider {...settings}>
                 <div>
                     <img
-                        src="https://wallpaper.dog/large/10818222.jpg"
+                        src="https://www.rstravelindia.com/blog/wp-content/uploads/2023/01/car-rental_bnr-1.jpg"
                         class="img-fluid rounded-top semiimg"
                         alt=""
 
@@ -29,7 +29,7 @@ function Sliders() {
               
                 <div>
                     <img
-                        src="https://cdn.luxatic.com/wp-content/uploads/2022/02/Mercedes-AMG-GT.jpg"
+                        src="https://tadtoper.com/wp-content/uploads/2020/01/car-rentals.jpg"
                         class="img-fluid rounded-top semiimg"
                         alt=""
                     
@@ -38,7 +38,7 @@ function Sliders() {
                 </div>
                 <div>
                     <img
-                        src="https://www.hagerty.co.uk/wp-content/uploads/2022/10/MG_7247-scaled-e1664899576607.jpg"
+                        src="https://www.udaipurtaxicabservice.com/Photos/udaipur-taxi-cab-service-car-rental-service.png"
                         class="img-fluid rounded-top semiimg"
                         alt=""
 
