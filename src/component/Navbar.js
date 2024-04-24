@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
     return (
@@ -9,16 +11,16 @@ function Navbar() {
             </div>
             <ul className=' space-x-2 flex w-full lg:w-4/12 flex-row sm:flex-row md:flex-row lg:flex-row font-sans text-medium font-bold justify-center md:py-2 sm:py-2 ' style={{ fontFamily: 'poppins' }}>
                 <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
-                    <span className="menu-item">Home</span>
+                    <Link className="menu-item" to="/">Home</Link>
                 </li>
                 <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
-                    <span className="menu-item">About</span>
+                    <Link className="menu-item" to="about">About</Link>
                 </li>
                 <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
-                    <span className="menu-item">Services</span>
+                    <Link className="menu-item" to="service">Services</Link>
                 </li>
                 <li className='md:px-2 sm:px-2 cursor-pointer text-gray-300'>
-                    <span className="menu-item">Book Ride</span>
+                    <Link className="menu-item" to="bookride">Book Ride</Link>
                 </li>
             </ul>
             <div className='hidden sm:hidden md:hidden lg:block'>

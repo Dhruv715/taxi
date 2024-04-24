@@ -1,26 +1,27 @@
 // import logo from './logo.svg';
 import './App.css';
+import About from './component/About';
 import Footer from './component/Footer';
+import Home from './component/Home';
 import Navbar from './component/Navbar';
-import Secction4 from './component/Secction4';
-import Section1 from './component/Section1';
 import Section2 from './component/Section2';
 import Section3 from './component/Section3';
-import Section5 from './component/Section5';
-import Section6 from './component/Section6';
-import Sliders from './component/Sliders';
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <>
       <Navbar/>
-      <Sliders/>
-      <Section1/> 
-      <Section2/>
-      <Section3/>
-      <Secction4/>
-      <Section5/>
-      <Section6/>
+          <Routes>
+          {/* Home Page */}
+          <Route path="/" element={ <Home/> } />
+          {/* Services */}
+          <Route path="/service" element={ <Section3/> } />
+          {/* Book Ride Page */}
+          <Route path="/bookride" element={ <Section2/> } />
+          {/* About Us */}
+          <Route path="/about" element={ <About/> } />
+          </Routes>
       <Footer/>
     </>
   );
